@@ -1,8 +1,0 @@
-README.md
-setup.py
-sys_info_comp30380.egg-info/PKG-INFO
-sys_info_comp30380.egg-info/SOURCES.txt
-sys_info_comp30380.egg-info/dependency_links.txt
-sys_info_comp30380.egg-info/top_level.txt
-systeminfo/__init__.py
-systeminfo/main.py
