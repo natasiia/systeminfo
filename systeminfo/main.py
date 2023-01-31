@@ -6,15 +6,16 @@ import socket
 import timeit
 import itertools
 
-my_system = platform.uname()
- 
-print(f"Machine Name: {my_system.node}")
-print(f"OS Name: {my_system.system}")
-print(f"OS Version: {my_system.version}")
-print(f"Number of CPU's: {cpu_count()}")
-print(f"Amount of memory(GB): {(psutil.virtual_memory()[3] + psutil.virtual_memory()[4])/1000000000}")
-print(f"IP address of machine: {socket.gethostbyname(socket.gethostname())}")
-print("")
+def main():
+    my_system = platform.uname()
+    
+    print(f"Machine Name: {my_system.node}")
+    print(f"OS Name: {my_system.system}")
+    print(f"OS Version: {my_system.version}")
+    print(f"Number of CPU's: {cpu_count()}")
+    print(f"Amount of memory(GB): {(psutil.virtual_memory()[3] + psutil.virtual_memory()[4])/1000000000}")
+    print(f"IP address of machine: {socket.gethostbyname(socket.gethostname())}")
+    print("")
 
 def bench_pidigits(ndigits=1000, loops=100):
 

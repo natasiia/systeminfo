@@ -1,8 +1,0 @@
-README.md
-setup.py
-systeminfo/__init__.py
-systeminfo/main.py
-systeminfo.egg-info/PKG-INFO
-systeminfo.egg-info/SOURCES.txt
-systeminfo.egg-info/dependency_links.txt
-systeminfo.egg-info/top_level.txt
